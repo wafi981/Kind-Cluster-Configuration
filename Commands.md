@@ -13,3 +13,12 @@ In general:
 kubectl get pods -A  --kubeconfig /Path/to/kubeconfig --context kind-kind 
 
 ```
+
+
+# For any other configuration command use:
+```
+kubectl cluster-info --context kind-kind
+
+```
+
+So just pass the context tag with the name of your cluster with any Kubectl command
